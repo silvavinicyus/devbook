@@ -5,7 +5,7 @@ import (
 	"net/http"
 )
 
-var rotaLogin = Route{
+var loginRoute = Route{
 	Uri:                    "/login",
 	Method:                 http.MethodPost,
 	Function:               controllers.Login,
